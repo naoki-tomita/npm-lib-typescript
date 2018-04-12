@@ -11,7 +11,9 @@
     "typescript": "^2.8.1"
   },
   "scripts": {
+    "clean": "rm -r -f ./dist",
     "test": "jest -c ./jest.config.json",
+    "prebuild": "yarn clean",
     "build": "tsc"
   }
 }
