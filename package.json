@@ -2,6 +2,7 @@
   "name": "npm-lib-typescript",
   "version": "1.0.0",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^22.2.3",
