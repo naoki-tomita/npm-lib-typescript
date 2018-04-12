@@ -1,0 +1,16 @@
+{
+  "name": "npm-lib-typescript",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.2",
+    "typescript": "^2.8.1"
+  },
+  "scripts": {
+    "test": "jest -c ./jest.config.json",
+    "build": "tsc"
+  }
+}
